@@ -1,0 +1,19 @@
+{
+  "name": "building-web-applications-with-node-js-and-express",
+  "version": "1.0.0",
+  "description": "express first try",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set DEBUG=app & node app.js",
+    "debug": "set DEBUG=* & node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "4.3.1",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "twilio": "^3.73.0"
+  }
+}
